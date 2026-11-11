@@ -32,4 +32,5 @@ jobs:
         with:
           name: revanced-cli
           path: build/libs
-          archive: false
+          if-no-files-found: error
+
